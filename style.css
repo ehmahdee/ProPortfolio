@@ -1,0 +1,154 @@
+:root {
+    --hkrgrn: #5d7b6e;
+    --viridian: #688b74;
+    --cmbgrn: #729b79;
+    --feldgrau: #526b69;
+    --frngray: #d2d7df;
+    --seashell: #fef5ef;
+    --jet: #353535;
+    --mintcrm: #f7fff7;
+    --azurecrm: #ecf8f8;
+    --lghtcyan: #dbfcff;
+    --ivory: #f5fbef;
+    --selectylw: #f7b801;
+    --honeydew: #e8f7ee;
+    --ashgray: #b8c4bb;
+    --cadet: #a0aab2;
+    --carrot: #f19a3e;
+  }
+  
+  /* font-family: 'Abyssinica SIL', serif;
+  font-family: 'Noto Serif', serif;
+  font-family: 'Prompt', sans-serif; */
+  
+  * {
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  body {
+    background-color: var(--ivory);
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--azurecrm);
+  }
+  
+  a:hover {
+    color: var(--carrot);
+  }
+  
+  nav {
+    margin-bottom: 0px;
+    /* position: fixed; */
+  }
+  
+  .navbar {
+    margin-top: 0px;
+    height: 70px;
+    width: 100%;
+    background-color: var(--feldgrau);
+    color: white;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+  }
+  
+  .nav-item {
+    font-family: "Abyssinica SIL", serif;
+    font-size: 40px;
+  }
+  
+  .splash-container,
+  .blurb-container,
+  .resume-container,
+  .contact-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .splash {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    padding: 4rem;
+    background-color: var(--cmbgrn);
+  }
+  
+  .splash-title {
+    font-size: 80px;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Abyssinica SIL", serif;
+  }
+  
+  img {
+    height: 400px;
+    margin-right: 5rem;
+  }
+  
+  .img-container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+  
+  .blurb-container {
+    margin: 2rem;
+    padding: 4rem;
+    background-color: var(--feldgrau);
+  }
+  
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    background-color: #04aa6d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  footer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 20px;
+  }
+  
